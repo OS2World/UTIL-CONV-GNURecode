@@ -1,0 +1,46 @@
+/* config.h  Generated manually for emx under OS/2 */
+
+/* Define if you have the vprintf function.  */
+#define HAVE_VPRINTF 1
+
+/* Define if you need to in order for stat and other things to work.  */
+#define _POSIX_SOURCE 1
+
+/* Define as the return type of signal handlers (int or void).  */
+#define RETSIGTYPE void
+
+/* Define if you have the ANSI C header files.  */
+#define STDC_HEADERS 1
+
+/* Default charset is latin1 on UNIX, ibmpc on MSDOS.  */
+#define DEFAULT_CHARSET "ibmpc"
+
+/* Define to the name of the distribution.  */
+#define PRODUCT "recode"
+
+/* Define to 1 if ANSI function prototypes are usable.  */
+#define PROTOTYPES 1
+
+/* Define to the version of the distribution.  */
+#define VERSION "3.4"
+
+/* Define if you have dup2.  */
+#define HAVE_DUP2 1
+
+/* Define if you have the pipe function.  */
+#undef HAVE_PIPE
+
+/* Define if you have popen.  */
+#define HAVE_POPEN 1
+
+/* Define if you have rename.  */
+#define HAVE_RENAME 1
+
+/* Define if you have the strerror function.  */
+#define HAVE_STRERROR 1
+
+/* Define if you have the <limits.h> header file.  */
+#define HAVE_LIMITS_H 1
+
+/* Define if you have the <string.h> header file.  */
+#define HAVE_STRING_H 1
